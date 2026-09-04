@@ -245,15 +245,8 @@ main {
   font-size: 0.92rem;
 }
 
-.contact-placeholder {
-  color: var(--ink-soft);
-  font-size: 0.88rem;
-}
-
-.contact-placeholder a {
-  color: var(--ink);
-  font-weight: 600;
-  text-decoration: underline;
+.contact-email-btn {
+  margin-top: 0.4rem;
 }
 
 .site-footer {
