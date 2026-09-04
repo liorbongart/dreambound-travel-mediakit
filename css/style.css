@@ -213,6 +213,69 @@ main {
   margin: 0 0 0.9rem;
 }
 
+/* Showcase */
+.showcase {
+  padding: 0.5rem 0 2.5rem;
+  text-align: center;
+}
+
+.showcase-intro {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  max-width: 400px;
+  margin: -0.8rem auto 1.6rem;
+}
+
+.showcase-grid {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.showcase-card {
+  display: block;
+  text-decoration: none;
+  background: var(--white);
+  border: 1px solid var(--blush-deep);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.5rem;
+  text-align: left;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.showcase-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px var(--shadow);
+}
+
+.showcase-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--white);
+  font-size: 0.75rem;
+  margin-bottom: 0.7rem;
+}
+
+.showcase-title {
+  color: var(--ink);
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0 0 0.4rem;
+}
+
+.showcase-views {
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
 /* Shop */
 .shop {
   text-align: center;
