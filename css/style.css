@@ -323,6 +323,16 @@ main {
   font-size: 0.96rem;
 }
 
+.shop-email {
+  margin: 1.2rem auto 0;
+}
+
+.shop-email a {
+  color: var(--gold-light);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 /* Contact */
 .contact {
   text-align: center;
